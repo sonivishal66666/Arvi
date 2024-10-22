@@ -19,7 +19,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 // Your secret key from Cashfree
-$secretkey = ""; // Replace with your actual secret key
+$secretkey = "cfsk_ma_test_7708f9040827cfbe4fd2facd556295f1_0c498ade"; // Replace with your actual secret key
 
 // Variable to track payment save status
 $paymentSaved = false;
