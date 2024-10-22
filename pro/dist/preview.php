@@ -78,8 +78,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
     $_SESSION['class'] = $class;
 
     // Cashfree Payment Gateway Integration
-    $appId = "TEST10323353dd615588a92764db9a9335332301"; // Replace with your Cashfree App ID
-    $secretKey = "cfsk_ma_test_7708f9040827cfbe4fd2facd556295f1_0c498ade"; // Replace with your Cashfree Secret Key
+    $appId = ""; // Replace with your Cashfree App ID
+    $secretKey = ""; // Replace with your Cashfree Secret Key
     $orderId = "ORDER_" . time(); // Unique Order ID
     $orderAmount = $grand_total;
     $orderCurrency = "INR";

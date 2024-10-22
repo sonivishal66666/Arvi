@@ -19,7 +19,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 // Your secret key from Cashfree
-$secretkey = "cfsk_ma_test_7708f9040827cfbe4fd2facd556295f1_0c498ade"; // Replace with your actual secret key
+$secretkey = ""; // Replace with your actual secret key
 
 // Variable to track payment save status
 $paymentSaved = false;
@@ -78,6 +78,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $code = "BOOKING_CODE"; // Replace with actual booking code
                 $no = ''; // Replace with actual seat number (can be a string, or valid seat number if needed)
                 
+
                 function generateRandomSeat() {
                     // Generate a random letter from A to I
                     $letter = chr(rand(65, 73)); // 65 = A, 73 = I
